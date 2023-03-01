@@ -1,0 +1,99 @@
+.header {
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: aquamarine;
+    position: fixed,
+
+  }
+
+  .card {
+    transition: 0.2s all linear;
+    size: inherit;
+
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  .card-img-top {
+    width: 14.85rem;
+    /* You can set the dimensions to whatever you want */
+    height: 15rem;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .modal-imgg {
+    object-fit: cover;
+    width: 1024px;
+    height: 768px;
+  }
+
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0px 16px;
+    margin-bottom: 0px;
+  }
+
+  .modal-footer {
+    justify-content: center;
+    /* justify-content: flex-end; */
+
+  }
+
+  .card-title-price {
+    color: rgb(19, 226, 47);
+    text-align: center;
+  }
+
+  .card-title {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .my-link {
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+    display: block;
+  }
+
+  .mt {
+    margin-top: 250px;
+  }
+
+  .mb {
+    margin-bottom: 250px;
+  }
+
+  .container {
+
+    align-items: center;
+    align-content: center;
+    width: 500px;
+
+  }
+
+  .btn-addcart {
+    width: 179px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px auto;
+    border: 1px solid green;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+
+  }

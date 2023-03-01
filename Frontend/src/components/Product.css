@@ -1,0 +1,18 @@
+.card.product {
+    transition: 0.2s all linear;
+    size: inherit;
+    text-align: center;
+
+  }
+
+  .card.product:hover {
+    transform: scale(1.1);
+  }
+
+  .card-img-top {
+    width: 14.85rem;
+    /* You can set the dimensions to whatever you want */
+    height: 15rem;
+    object-fit: cover;
+    width: 100%;
+  }

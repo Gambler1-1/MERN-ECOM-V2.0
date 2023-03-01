@@ -1,0 +1,24 @@
+/* .container{
+    display: flex;
+    margin: auto;
+    min-height: 500px;
+    align-items: center;
+  
+  }
+   */
+   .login.container{
+    display: flex;
+    margin: auto;
+    min-height: 600px;
+    align-items: center;
+   }
+  
+  .formError {
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 3px;
+  }
+  .alert{
+    padding: 10px;
+  }
